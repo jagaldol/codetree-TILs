@@ -28,9 +28,9 @@ def sol():
     if r == 1:
         result.append(1)
     
-    result.reverse()
-    
-    print(''.join(map(str, result)))
 
+    for i in range(len(result) - 1, -1, -1):
+        print(result[i], end="")
+    print()
 
 sol()
