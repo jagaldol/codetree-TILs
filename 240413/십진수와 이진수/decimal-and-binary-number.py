@@ -2,7 +2,7 @@ import sys
 
 input = sys.stdin.readline
 
-N = input()
+N = input().rstrip()
 
 
 def sol():
